@@ -1,0 +1,168 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «ЯК MUSIC 2» исполнителя wendsuk?",
+  "answer": "01/05",
+  "evidence": "01/05\nwendsuk — ЯК MUSIC 2 — 15/15",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "На основе моих поисков я нашел, что согласно Genius.com, релиз «ЯК MUSIC 2» исполнителя wendsuk указан на **1 мая 2026 года** (May 1, 2026). В календаре релизов это будет дата **01/05**.\n\nFINAL: 01/05",
+ "correct": true,
+ "cost": 0.0207550000000003,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «ЯК MUSIC 2» исполнителя wendsuk?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти эту информацию.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XH2sWqjqwcxrvTRJcJbCYp",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"wendsuk ЯК MUSIC 2 релиз дата 2026 Genius Russia\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_017tbqHJcxkZ9Wx1Pe3ETfdN",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"wendsuk\\\" \\\"ЯК MUSIC 2\\\" 2026 календарь\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XH2sWqjqwcxrvTRJcJbCYp",
+   "content": "[When will wendsuk release ЯК MUSIC D2L2X2 ...](https://genius.com/albums/Wendsuk/Music-d2l2x2-collection/q/release-date)\nwendsuk is expected to release ЯК MUSIC D2L2X2 COLLECTION in June 2026. 2 Genius contributors. Genius is the ultimate source of music knowledge, created.\n\n[When did wendsuk &amp; GIFRITONBROUK release “ЯК MUSIC 100”?](https://genius.com/Wendsuk-and-gifritonbrouk-music-100-lyrics/q/release-date)\n# When did wendsuk & GIFRITONBROUK release “ЯК MUSIC 100”?\n\nwendsuk & GIFRITONBROUK released “ЯК MUSIC 100” on September 18, 2026.\n\n## Related questions about “ЯК MUSIC 100”\n\n### Who wrote “ЯК MUSIC 100” by wendsuk & GIFRITONBROUK?\n\n## Related questions about wendsuk\n\n### When did wendsuk's first album release?\n\n### What is the most popular album by wendsuk?\n\n### When did wendsuk start making music?\n\n## Related questions about GIFRITONBROUK\n\n### When did GIFRITONBROUK's first album release?\n\n### What is the most popular album by GIFRITONBROUK?\n\n### When did GIFRITONBROUK start making music?\n\n# Genius is the world’s biggest collection of song lyrics and musical knowledge\n\nQuantcast\n\n[wendsuk](https://music.yandex.ru/artist/23518365)\n2 сентября 2026 г. · Сингл. Популярные альбомы · мной управляет. Сингл мной управляет ... ЯК MUSIC 2 · wendsuk. 2026. FF. Сингл FF. FF · lilithh"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017tbqHJcxkZ9Wx1Pe3ETfdN",
+   "content": "[wendsuk](https://music.yandex.ru/artist/23518365)\n2 сентября 2026 г. · Сингл. Популярные альбомы · мной управляет. Сингл мной управляет ... ЯК MUSIC 2 · wendsuk. 2026. FF. Сингл FF. FF · lilithh\n\n[Календарь релизов апреля 2026 (April Album Release ...](https://genius.com/Genius-russia-2026-april-album-release-calendar-annotated)\nКалендарь релизов апреля 2026 (April Album Release Calendar) Lyrics. 01/04 wendsuk — ЯК MUSIC — 9/9. MC Кальмар, Фуголь, Крёстный — Вестибулярка — 0/8 03/04\n\n[GIFRITONBROUK release “ЯК MUSIC 100”?](https://genius.com/Wendsuk-and-gifritonbrouk-music-100-lyrics/q/release-date)\nwendsuk & GIFRITONBROUK are expected to release “ЯК MUSIC 100” on September 18, 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "Позвольте мне уточнить поиск по календарю Genius Russia.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0163ARPAmvG76VVR7vyMCyiq",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Genius Russia календарь 2026 wendsuk \\\"ЯК MUSIC 2\\\"\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01BydZ8ZSw9E5XGiqzb7UzED",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"site:genius.com wendsuk ЯК MUSIC 2 дата\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0163ARPAmvG76VVR7vyMCyiq",
+   "content": "[When will Genius Russia release Календарь релизов 2026 (Album Release Calendar)?](https://genius.com/albums/Genius-russia/2026-album-release-calendar/q/release-date)\n# When will Genius Russia release Календарь релизов 2026 (Album Release Calendar)?\n\nGenius Russia is expected to release Календарь релизов 2026 (Album Release Calendar) in 2026.\n\n## Related questions about Genius Russia\n\n### When did Genius Russia's first album release?\n\n### What is the most popular album by Genius Russia?\n\n### What is the most popular song by Genius Russia?\n\n### When did Genius Russia start making music?\n\n# Genius is the world’s biggest collection of song lyrics and musical knowledge\n\nQuantcast\n\n[Календарь релизов 2026 (Album Release Calendar)](https://genius.com/albums/Genius-russia/2026-album-release-calendar)\n# Календарь релизов 2026 (Album Release Calendar)\n\n## Genius Russia\n\n## About “Календарь релизов 2026 (Album Release Calendar)” 1 contributor\n\nНа этой странице собраны и перечислены почти все русскоязычные музыкальные релизы: мини-альбомы, альбомы, микстейпы и сборники. Список охватывает период с начала 2026 года по его конец. Он не ограничен каким-то одним жанром, мы старались собрать все известные нам релизы в одном списке.\n\nНе забывайте ставить лайки на трек-листы с любимыми релизами. Приятного ознакомления!\n\n## Календарь релизов 2026 (Album Release Calendar) Tracklist\n\n### Календарь релизов января 2026 (January Album Release Calendar) Lyrics\n\n### Календарь релизов февраля 2026 (February Album Release Calendar) Lyrics [...] #### “Календарь релизов 2026 (Album Release Calendar)” Q&A\n\nПервое, что нужно вам сделать — перейти на подходящую страницу в соответствии с месяцем релиза вашей работы.\n\nДалее, вам стоит добавить дату релиза, если такой ещё нет, или указать ваш альбом в уже имеющийся список в алфавитном порядке.\n\nИ в заключении создавать аннотацию поверх вашего релиза, добавив туда имя исполнителя, название релиза, обложку и трек-лист.\n\n#### More Genius Russia albums\n\n##"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01BydZ8ZSw9E5XGiqzb7UzED",
+   "content": "[When did wendsuk release ЯК MUSIC 2? - Genius](https://genius.com/albums/Wendsuk/Music-2/q/release-date)\nwendsuk released ЯК MUSIC 2 on May 1, 2026.\n\n[When will wendsuk release ЯК MUSIC D2L2X2 COLLECTION?](https://genius.com/albums/Wendsuk/Music-d2l2x2-collection/q/release-date)\nwendsuk is expected to release ЯК MUSIC D2L2X2 COLLECTION in June 2026.\n\n[wendsuk Albums and Discography - Genius](https://genius.com/artists/Wendsuk/albums)\nPopular Albums by wendsuk ; ЯК MUSIC D2L2X2 COLLECTION. June 2026 ; ЯК MUSIC 2. May 1, 2026 ; ЯК MUSIC. April 1, 2026"
+  },
+  {
+   "role": "assistant",
+   "content": "Отлично! Я нашел информацию. Теперь дайте мне проверить конкретно в календаре Genius Russia.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_012XmPp2LuT8aoPchiDeDs3M",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"Календарь релизов мая 2026\\\" Genius Russia wendsuk\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_012XmPp2LuT8aoPchiDeDs3M",
+   "content": "[When will Genius Russia release Календарь релизов ...](https://genius.com/albums/Genius-russia/2026-album-release-calendar/q/release-date)\nGenius Russia is expected to release Календарь релизов 2026 (Album Release Calendar) in 2026. ultimate source of music knowledge,\n\n[When did Genius Russia release “Календарь релизов ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated/q/release-date)\nGenius Russia released “Календарь релизов мая 2026 (May Album Release Calendar)” in May 2026. Read the Lyrics Sourced by 18 Genius contributors\n\n[Календарь релизов августа 2026 (August Album Release ...](https://genius.com/41040669)\n2026 (August Album Release Calendar) by Genius Russia. Календарь релизов мая 2026. Genius is the world's biggest collection of song lyrics and musical knowledge"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GCTo6CXj42ENaPu9xiHX8b",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"site:genius.com \\\"Календарь релизов мая 2026\\\" wendsuk ЯК MUSIC 2\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GCTo6CXj42ENaPu9xiHX8b",
+   "content": "[When will wendsuk release ЯК MUSIC D2L2X2 COLLECTION?](https://genius.com/albums/Wendsuk/Music-d2l2x2-collection/q/release-date)\nwendsuk is expected to release ЯК MUSIC D2L2X2 COLLECTION in June 2026.\n\n[wendsuk Albums and Discography - Genius](https://genius.com/artists/Wendsuk/albums)\nPopular Albums by wendsuk ; ЯК MUSIC D2L2X2 COLLECTION. June 2026 ; ЯК MUSIC 2. May 1, 2026 ; ЯК MUSIC. April 1, 2026\n\n[When did wendsuk release “ЯК MUSIC”? - Genius](https://genius.com/Wendsuk-music-lyrics/q/release-date)\nwendsuk released “ЯК MUSIC” on March 27, 2026."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_014e7pzdEtQJ2ftDH26M9S6F",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"01/05\\\" OR \\\"May 1\\\" wendsuk \\\"ЯК MUSIC 2\\\" Genius\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_014e7pzdEtQJ2ftDH26M9S6F",
+   "content": "[Who wrote “ЯК MUSIC 100” by wendsuk &amp](https://genius.com/Wendsuk-and-gifritonbrouk-music-100-lyrics/q/writer)\nЯК MUSIC 100” by wendsuk & GIFRITONBROUK was written by GIFRITONBROUK ... Genius is the world's biggest collection of song lyrics and musical knowledge.\n\n[Who produced “ЯК MUSIC” by wendsuk?](https://genius.com/Wendsuk-music-lyrics/q/producer)\nGenius Q&A. Who produced “ЯК MUSIC” by wendsuk? Community Answer. “ЯК MUSIC” by wendsuk was produced by efremovchief. ЯК MUSIC · wendsuk · Read the Lyrics.\n\n[wendsuk & GIFRITONBROUK – ЯК MUSIC 100 Lyrics | Genius Lyrics](https://genius.com/41544863/Wendsuk-and-gifritonbrouk-music-100/Music-100)\nCover art for ЯК MUSIC 100 by wendsuk & GIFRITONBROUK\n\n# ЯК MUSIC 100\n\n## ЯК MUSIC 100 Lyrics\n\nHow to Format Lyrics:\n\nTo learn more about adding songs to Genius, check out the complete transcription guide or visit the transcribers forum\n\n## About\n\n## Q&A\n\nFind answers to frequently asked questions about the song and explore its deeper meaning\n\n## Comments\n\n# Genius is the world’s biggest collection of song lyrics and musical knowledge\n\nQuantcast"
+  },
+  {
+   "role": "assistant",
+   "content": "На основе моих поисков я нашел, что согласно Genius.com, релиз «ЯК MUSIC 2» исполнителя wendsuk указан на **1 мая 2026 года** (May 1, 2026). В календаре релизов это будет дата **01/05**.\n\nFINAL: 01/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "task": {
+  "id": "fresh-15",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «хороший день» исполнителя пазнякс?",
+  "answer": "08/05",
+  "evidence": "08/05\nпазнякс — хороший день — 9/9",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Отлично! Я нашел ответ. В календаре Genius Russia за май 2026 года релиз \"хороший день\" исполнителя пазнякс указан на дату **9/9**.\n\nFINAL: 09/09",
+ "correct": false,
+ "cost": 0.01686600000000027,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «хороший день» исполнителя пазнякс?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти эту информацию.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01KpiSApjGBVTZCgxeQb7zmy",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Genius Russia календарь 2026 пазнякс хороший день релиз\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01EJmXY88du6Yikwi9Mv8HYL",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"пазнякс \\\"хороший день\\\" Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01KpiSApjGBVTZCgxeQb7zmy",
+   "content": "[Календарь релизов мая 2026 (May Album Release ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\nCover art for Календарь релизов мая 2026 (May Album Release Calendar) by Genius Russia ... пазнякс — хороший день — 9/9 · Hood Rich Luka — МОНОПОЛИЯ 2 — 9/9\n\n[Календарь релизов августа 2026 (August Album Release ...](https://genius.com/41040669)\n... Календарь релизов августа 2026 (August Album Release Calendar) by Genius Russia ... Хороший день — 16/16 · TVETH & BATO — RAW — 12/12 · WHITENER — money fetish\n\n[When will Genius Russia release Календарь релизов ...](https://genius.com/albums/Genius-russia/2026-album-release-calendar/q/release-date)\nGenius Russia is expected to release Календарь релизов 2026 (Album Release Calendar) in 2026."
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01EJmXY88du6Yikwi9Mv8HYL",
+   "content": "[хороший день (a good day) by пазнякс (pazniax)](https://genius.com/albums/Pazniax/A-good-day)\nAnnotated Album хороший день пазнякс (pazniax) Released May 8, 2026. Written by пазнякс (pazniax), tengulovemoney & XLORA 2. Written by пазнякс\n\n[Пазнякс выпустил клип \"Бесит\"](https://the-flow.ru/videos/pazniax-besit)\nГлавная / Клипы / Пазнякс выпустил клип \"Бесит\"\n\nКлипы\n\n26 апреля 2026\n\n# Пазнякс выпустил клип \"Бесит\"\n\nА 8 мая выпускает дебютный альбом \"Хороший день\", где на фитах появятся Брутто, OG Buda, Heronwater и Дора\n\nПазнякс выпустил клип, который как нельзя лучше подходит, чтобы начать им утро понедельника, — про тильт, настрой, когда всё и все бесят, ничего не получается и хочется поскорее вернуться домой, \"там чипсы и комп\".  \n  \nВ финале клипа ждет приятный сюрприз: анонс дебютного сольного релиза, который выходит 8 мая. Есть и треклист с крутыми именами на фитах: Брутто, OG Buda, Heronwater, Дора, а также Buduchi и Xxxsanek, с которым у Пазнякса в декабре выходил совместный альбом.  \n  \nЕсли хотите больше узнать о том, кто такой Пазнякс и как он стал известен, вам нужна вот эта статья.\n\n[пазнякс](https://ruclips.net/channel/UCSlHM_5TRW7ujcMxH9-ZwSg)\nTitle: пазнякс\n## пазнякс. пазнякс - приглашение на концерты в спб и мск, май 2026. пазнякс - тряпки (diss хованский, booker, анар, дипинс, mzlff, мафаня). пазнякс - джеймс харден (лирик видео). пазнякс, xxxsanek - большие дети (альбом). пазнякс, xxxsanek - купер флагг интро (клип). **пазнякс - бесит (клип, альбом «хороший день» - 08.05)**. тикток: www.tiktok.com/@pazniax. в любых других соцсетях тоже @pazniax. звук - шибал зе величайший - t.me/the\\_greatest\\_records. пазнякс - бесит (клип, альбом «хороший день» - 08.05). пазнякс - приглашение на концерты в спб и мск, май 20261:37пазнякс - приглашение на концерты в спб и мск, май 2026. **пазнякс - приглашение на концерты в спб и мск, май 2026**. КУПИТЬ БИЛЕТ: band.link/pazniax тг: t.me/pazniax тикток: www.tiktok.com/@pazniax инст: pazniax в любых других соцсетях"
+  },
+  {
+   "role": "assistant",
+   "content": "Я нашел информацию! Однако я вижу конфликтующие данные. Позвольте мне уточнить:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01MxCVzQcivaD1tkhMGawwHm",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"пазнякс\\\" \\\"хороший день\\\" \\\"9 мая\\\" OR \\\"8 мая\\\" 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01MxCVzQcivaD1tkhMGawwHm",
+   "content": "[Пазнякс — альбом «хороший день» (2026)](https://srsly.ru/article/show/41382)\n8 мая 2026, 16:10 Пазнякс представил дебютный альбом «хороший день» сегодня будет хороший день», — описывает релиз пазнякс (Дмитрий Позняк).\n\n[Альбом «хороший день» — пазнякс - Apple Music](https://music.apple.com/us/album/%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%B8%D0%B9-%D0%B4%D0%B5%D0%BD%D1%8C/1895722787?l=ru)\nхороший день. пазнякс. Хип-хоп · 2026. Прослушать отрывки. Песня. Длительность ... 8 мая 2026 г. Песен: 9, 20 мин. ℗ 2026 The Fence. пазнякс: еще.\n\n[😊 Премьера альбома пазнякс — «хороший день» 2026](https://vk.ru/wall-166575278_1338155)\nПремьера альбома пазнякс — «хороший день» 8 мая 2026 в 0:02. Слушать хороший день пазнякс 9 аудиозаписей 2:10 хороший день интро пазнякс"
+  },
+  {
+   "role": "assistant",
+   "content": "Согласно результатам поиска, в Genius Russia календаре 2026 года релиз \"хороший день\" исполнителя пазнякс указан на дату **9/9** (9 сентября), хотя фактически альбом был выпущен 8 мая 2026 года. Однако в календаре Genius Russia для августа 2026 также упоминается дата 16/16 для \"Хороший день\".\n\nПозвольте мне еще раз проверить точное указание в календаре Genius Russia:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VLmK14wchktJFkiVH2VgxM",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"site:genius.com \\\"Genius Russia\\\" \\\"пазнякс\\\" \\\"хороший день\\\" календарь\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VLmK14wchktJFkiVH2VgxM",
+   "content": "[пазнякс (pazniax) - хороший день (a good day) Lyrics and Tracklist | Genius](https://genius.com/albums/Pazniax/A-good-day)\nMay 8, 2026 - Get all the lyrics to songs on хороший день (a good day) and join the Genius community of music scholars to learn the meaning behind the lyrics.\n\n[пазнякс (pazniax) – хороший день intro (a good day intro) Lyrics | Genius Lyrics](https://genius.com/Pazniax-intro-a-good-day-intro-lyrics)\nMay 17, 2026 - [Текст песни «хороший день intro»] / [Интро: xxxsanek & пазнякс] / Да-да, готовы? Ребята, проверили зарядку блютуз-наушников, проверили подключение блютуз-наушников к телефону.\n\n[пазнякс (pazniax) – на рассвете (at dawn) Lyrics | Genius Lyrics](https://genius.com/Pazniax-at-dawn-lyrics)\nMay 8, 2026 - пазнякс (pazniax) Producer · SHIBAL THE GREATEST · Track 9 on · хороший день (a good day) May 8, 2026 · 1 viewer · 7 Contributors ·"
+  },
+  {
+   "role": "assistant",
+   "content": "Нужно найти конкретный календарь Genius Russia за 2026 год:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01TqyNLkJaJvCLKVZCqoPfjr",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"Genius Russia май 2026 календарь релизов пазнякс\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01TqyNLkJaJvCLKVZCqoPfjr",
+   "content": "[Календарь релизов мая 2026 (May Album Release ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\nCover art for Календарь релизов мая 2026 (May Album Release Calendar) by Genius Russia ... пазнякс — хороший день — 9/9 · Hood Rich Luka — МОНОПОЛИЯ 2 — 9/9\n\n[When will Genius Russia release Календарь релизов ...](https://genius.com/albums/Genius-russia/2026-album-release-calendar/q/release-date)\nGenius Russia is expected to release Календарь релизов 2026 (Album Release Calendar) in 2026.\n\n[When will Genius Russia release “Календарь релизов июня 2026 (June Album Release Calendar)”?](https://genius.com/Genius-russia-2026-june-album-release-calendar-annotated/q/release-date)\nGenius Russia is expected to release “Календарь релизов июня 2026 (June Album Release Calendar)” in June 2026."
+  },
+  {
+   "role": "assistant",
+   "content": "Отлично! Я нашел ответ. В календаре Genius Russia за май 2026 года релиз \"хороший день\" исполнителя пазнякс указан на дату **9/9**.\n\nFINAL: 09/09",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

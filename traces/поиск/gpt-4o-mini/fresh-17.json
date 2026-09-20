@@ -1,0 +1,140 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «miscellaneous» исполнителя mapt0v?",
+  "answer": "08/05",
+  "evidence": "08/05\nmapt0v — miscellaneous — 11/11",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "К сожалению, я не смог найти информацию о релизе «miscellaneous» исполнителя mapt0v и его дате в календаре Genius Russia за 2026 год. Если у вас есть другие источники или запросы, пожалуйста, дайте знать!",
+ "correct": false,
+ "cost": 0.00037274999999992176,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «miscellaneous» исполнителя mapt0v?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_7TjIaYCWLYT5a1VT31uxUsBT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Genius Russia 2026 мapt0v miscellaneous release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_7TjIaYCWLYT5a1VT31uxUsBT",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1o7tswEinoZWSo3E2OxsQmzO",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"mapt0v miscellaneous release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1o7tswEinoZWSo3E2OxsQmzO",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2eHXGdFth6cVTWTv38HPTLcE",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Genius Russia calendar 2026 releases\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2eHXGdFth6cVTWTv38HPTLcE",
+   "content": "List of video games released in 2026 <p class=\"mw-empty-elt\"> </p> <p>The following is a comprehensive index of all games released in 2026, sorted chronologically by release date, and divided by quarter. Information regarding developer, publisher, operating system, genre, and type of release is provided where available </p><p>For a summary of 2026 in video games as a whole, see 2026 in video games. </p>"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_lIzRXOcwBP6uicDmSpr4BDyb",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"mapt0v discography\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_lIzRXOcwBP6uicDmSpr4BDyb",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HfDvEpct6ZG8yzn4TzTb7H8J",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"mapt0v Genius Russia\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HfDvEpct6ZG8yzn4TzTb7H8J",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не смог найти информацию о релизе «miscellaneous» исполнителя mapt0v и его дате в календаре Genius Russia за 2026 год. Если у вас есть другие источники или запросы, пожалуйста, дайте знать!",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

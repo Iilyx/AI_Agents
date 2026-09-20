@@ -1,0 +1,118 @@
+{
+ "task": {
+  "id": "fresh-13",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «Песни Идиота» исполнителя Pokich?",
+  "answer": "01/05",
+  "evidence": "01/05\nPokich — Песни Идиота — 2/2",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «Песни Идиота» исполнителя Pokich указан на 3 мая 2026 года в календаре Genius Russia.\n\nFINAL: 03/05",
+ "correct": false,
+ "cost": 0.0008133000000001278,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «Песни Идиота» исполнителя Pokich?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wtLKanM4LNsg6qmIC2ZUVbkV",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Песня Идиота Pokich релиз дата Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wtLKanM4LNsg6qmIC2ZUVbkV",
+   "content": "[When did Pokich release “чтотытакое? (whatareyou?)”?](https://genius.com/Pokich-whatareyou-lyrics/q/release-date)\nPokich released “чтотытакое? (whatareyou?)” on August 24, 2026. Read the Lyrics Sourced by 1 Genius contributors. Genius is the ultimate source\n\n[When did Pokich release “я не в себе (I'm not myself)”?](https://genius.com/Pokich-im-not-myself-lyrics/q/release-date)\nPokich released “я не в себе (I'm not myself)” on September 3, 2026.\n\n[Календарь релизов июля 2026 (July Album Release ...](https://genius.com/Genius-russia-2026-july-album-release-calendar-annotated)\n03/07 / WARYKID, UMSY — POSTMORTEM — 6/6 / Pokich — Случайности — 4/4 / марти мидвестиксон — удивительные болваноключения марти мидвестиксона — 5/5 / 10/07"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_djWZS38fYdMwVyLW2vKg4Q00",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Песни Идиота Pokich релиз дата 2026 Genius Russia\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_djWZS38fYdMwVyLW2vKg4Q00",
+   "content": "[Genius Russia – Календарь релизов марта 2026 (March Album Release Calendar) | Genius](https://genius.com/Genius-russia-2026-march-album-release-calendar-annotated)\nTitle: Genius Russia – Календарь релизов марта 2026 (March Album Release Calendar) | Genius\nCover art for Календарь релизов марта 2026 (March Album Release Calendar) by Genius Russia. # Календарь релизов марта 2026 (March Album Release Calendar). Календарь релизов 2026 (Album Release Calendar). чума — *blackest trap mixtape* — 0/4. RX Soulja — *so drank with no alco* — 6/6. Pokich — *гитара мой лучший друг* — 5/5. auratoshi — *outsider/sleep* — 2/2. FIILLHEADĐ — *Н.Е.Т.*  — 4/4. Lord Polo — *Ice Cream vol 1* — 8/8. Miyagi & Эндшпиль — *ANABIOS* — 13/13. OTURRO — *Грустное пианино не испортит нам РЭЙВ* — 3/3. Parker Crane — *PARKER FILES* — 7/11. Pokich — *треугольник меня* — 3/3. VELIAL SQUAD — *хризопея* — 8/8. ximora — *цикады микстейп* — 12/12. Автобус номер 6 — *Кто ваши кумиры?* — 12/12. Давид Туров & LIZOGUB — *Д ЗНАЧИТ ДЕНЬГИ* — 4/4. дари бэмби — *СНЕГ* — 2/2. лил кидд — *Флористика* — 5/5. Никита Рогозин — *Радостопечалие* — 0/10. ErickoSimans — *KrazyKrazy vol 1* — 2/4. Asper X — Будет больно — 5/5. Zero People — *Всё, что после* — 0/11. ARLEKIN 40 000 & последний свидетель — *cathedral.exe* — 2/2. BEEZY KUSH — *StreetStars* — 5/5. Blockkid — *Poker Face 2* — 10/10. Ceykko — *влюбленные личности* — 7/7. Dimebag Plug — *Шансон* — 0/5. koonki — *дядя полицейский* — 0/6. LAVBLAST & SP4K — *SPLAV* — 0/13. Би-2 — *Путешествие вокруг Солнца* — 9/12. Элвин Грей — *Хитлар* — 0/3. PHARAOH — *Bentley + Full Clip* — 2/2. Business Baby — *Angels & Demons* — 1/13. Katanacss — *Почему всё время лето?* — 0/3. Kof — *Концепция личности* — 0/7. kokaa — *Saint Love* — 6/6. Loqiemean — *ши 1/6* — 2/2. Vika Kuchak — *aspirine* — 0/7. шелест — *Время кончено* — 0/2. never die & дима фефилов — *Pisya Popa 2* — 6/6. Turbosh — *808 BUS* — 0/4. Ugly Flame — *Tsukimi* — 0/4. Vizzyx & `ёarly — *INFLUENTIAL* — 3/3. Ёлка — "
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3EGzMT8VWs1TLvX3r5Yt0Pcm",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Pokich Песня Идиота релиз\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3EGzMT8VWs1TLvX3r5Yt0Pcm",
+   "content": "[Pokich](https://genius.com/Pokich)\nЭтот релиз является олицетворением самого Pokich'а — это достаточно большая и тяжёлая рефлексия, принятие себя таким, какой ты есть, осмысление своего опыта и\n\n[Stream ♫̴̡̻̘̺̎͌♫̸̠̘̮̘͙͛̕♫̸̡͔̭̤́♫̵̧̦͔̣̪̽̔ ...](https://soundcloud.com/pokichhhhhh/3c7ifq8zcprp)\nStream ♫♫♫♫ by Pokich on desktop and mobile. Play over 320 million tracks for free on SoundCloud. Песни Идиота Песни Идиота Песни\n\n[Группа «Давинчи» выпустила «Идиота» | Musecube](https://musecube.org/newskub/gruppa-davinchi-vypustila-idiota)\nПерейти к содержимому\n\nMusecube\n\n# Musecube\n\nТерритория творческой свободы\n\n# Группа «Давинчи» выпустила «Идиота»\n\n—\n\nот автора\n\nMusecube\n\nв Поп и R’n’B, Новости, Рок и Метал, Новости музыки\n\n6 декабря состоялся релиз нового трека и клипа от лауреатов международного конкурса «Новая волна 2019», группы «Давинчи» (@davincies\\_official), с неожиданным и несколько провокационным названием «Идиот» и смелым выбором стиля звучания.\n\nПо словам солиста группы Андрея Лобжанидзе, песня «Идиот» основана на реальных событиях. Когда после совершенной глупой ошибки жизнь идет под откос, и тебе больше ничего не остаётся, кроме как называть себя Идиотом. Это история об ошибках и умении их признавать, а так же о том, что всегда есть шанс все исправить. [...] «Идиот» — это уже вторая работа группы, написанная в стиле future bass, модном современном направлении музыки, популярном сейчас на западе благодаря таким именам, как David Guetta(ft.Sia) , Martin Garrix, The Chainsmokers. Трек был создан в коллаборации с саунд продюсерами Дмитрием Агафоновым и Андреем Коноплевым, работающими со многими известными артистами российского шоу бизнеса. Первой работой в этом стиле была песня “Не отпускай”, написанная для проекта “Песни” на ТНТ, также прозвучавшая на 2-м конкурсном дне “Новой волны 2019”. Так как тренды звучания future Bass только приходят на российский рынок, мастеринг трека делали в Германии. [...] Ранее в этом году группа выпустила клип на песню “Бомбит”"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FpExxH5wNLQLhNi7nZKT4pS1",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Песни Идиота Pokich дата релиза 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FpExxH5wNLQLhNi7nZKT4pS1",
+   "content": "[Genius Russia – Календарь релизов мая 2026 (May Album Release Calendar) | Genius](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\n— 2/2 Old honda — Ускоренные записи — 3/3 Pokich — Песни Идиота — 2/2 03/05 Anonymous Ember — XXX Santa On my Dick — 9/9 08/05 пазнякс — хороший день — 9/9 Hood Rich Luka — МОНОПОЛИЯ 2 — 9/9 mapt0v — miscellaneous — 11/11 Shiny Ruby & LXNER — Twilight Duo — 12/12 whyousolonely — SC WARS MIX — 5/5 FiNNA — Finntanyl — 6/6\n\n[When did Pokich release “всё хорошее рано или поздно ...](https://genius.com/Pokich-agdctaesor-lyrics/q/release-date)\nPokich released “всё хорошее рано или поздно кончается (AGDCTAESOR)” on August 31, 2026.\n\n[Pokich — Classic 10в1 (2026)](https://www.youtube.com/playlist?list=PLhO6lv1BiHSUAejuXWdJVlzZzsiP7Oh7q)\nClassic 10в1 (2026) · Pokich — себянезнаюинтро (Official Audio) · Pokich — так и живём (Official Audio) · Pokich — снова по кругу (Official Audio) · Pokich"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «Песни Идиота» исполнителя Pokich указан на 3 мая 2026 года в календаре Genius Russia.\n\nFINAL: 03/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

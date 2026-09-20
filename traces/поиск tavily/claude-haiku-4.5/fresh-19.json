@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «SC WARS MIX» исполнителя whyousolonely?",
+  "answer": "08/05",
+  "evidence": "08/05\nwhyousolonely — SC WARS MIX — 5/5",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "На основе найденной информации, релиз «SC WARS MIX» исполнителя whyousolonely был выпущен 8 мая 2026 года согласно Genius.\n\nFINAL: 08/05",
+ "correct": true,
+ "cost": 0.005900000000000016,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «SC WARS MIX» исполнителя whyousolonely?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я поищу информацию о релизе «SC WARS MIX» исполнителя whyousolonely на Genius Russia.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_018NTB2CVhzaFhCBVfXkshbn",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"whyousolonely SC WARS MIX Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_018NTB2CVhzaFhCBVfXkshbn",
+   "content": "[When did whyousolonely release SC WARS 4/MIX?](https://genius.com/albums/Whyousolonely/Sc-wars-vol-4/q/release-date)\nwhyousolonely released SC WARS 4/MIX on March 11, 2026. 20 Genius contributors. Genius is the ultimate source of music knowledge, created by\n\n[SC WARS MIX Lyrics and Tracklist - whyousolonely](https://genius.com/albums/Whyousolonely/Sc-wars-mix)\nSC WARS MIX whyousolonely Released May 8, 2026. Written by whyousolonely & zombiqe 2 пустота (void) Lyrics 627. Ad About Genius Press Promote\n\n[whyousolonely - SC WARS 4/MIX Lyrics and Tracklist](https://genius.com/albums/Whyousolonely/Sc-wars-4-mix)\nwhyousolonely Released March 11, 2026. Written by whyousolonely & zombiqe. About Genius Press Promote Your Music"
+  },
+  {
+   "role": "assistant",
+   "content": "Я нашел информацию о релизе! На Genius указаны две даты для релиза «SC WARS MIX»:\n- SC WARS 4/MIX: 11 марта 2026 года\n- SC WARS MIX: 8 мая 2026 года\n\nПозвольте мне уточнить, какая именно версия указана в календаре Genius Russia.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WhX3busja3CvqnfSPN5XGW",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\": \"\\\"SC WARS MIX\\\" whyousolonely \\\"8 мая\\\" 2026 Genius\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WhX3busja3CvqnfSPN5XGW",
+   "content": "[SC WARS MIX (English Translation)?](https://genius.com/albums/Genius-english-translations/Whyousolonely-sc-wars-mix-english-translation/q/release-date)\nGenius English Translations released whyousolonely - SC WARS MIX (English Translation) on May 8, 2026.\n\n[whyousolonely - SC WARS MIX (English Translation)](https://genius.com/albums/Genius-english-translations/Whyousolonely-sc-wars-mix-english-translation)\nwhyousolonely - SC WARS MIX (English Translation) Lyrics and Tracklist. Released May 8, 2026. ORA - грани (edges)\n\n[SC WARS MIX Lyrics and Tracklist - whyousolonely](https://genius.com/albums/Whyousolonely/Sc-wars-mix)\nSIGN UP. 1 Cover. Album. SC WARS MIX. whyousolonely. Released May 8, 2026. Back. SC WARS MIX Tracklist. 1. Москва слезам не верит (MDBIT) Lyrics."
+  },
+  {
+   "role": "assistant",
+   "content": "На основе найденной информации, релиз «SC WARS MIX» исполнителя whyousolonely был выпущен 8 мая 2026 года согласно Genius.\n\nFINAL: 08/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

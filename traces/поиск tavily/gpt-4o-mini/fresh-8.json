@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-8",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «PARANOID» исполнителя helios 812?",
+  "answer": "01/05",
+  "evidence": "01/05\nhelios 812 — PARANOID — 13/13",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «PARANOID» исполнителя helios 812 в календаре Genius Russia указан на 01 мая 2026 года.\n\nFINAL: 01/05",
+ "correct": true,
+ "cost": 0.00019934999999993153,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «PARANOID» исполнителя helios 812?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_DB3AHDJDpwxNISOKAQla5HhB",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"PARANOID helios 812 релиз календарь Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_DB3AHDJDpwxNISOKAQla5HhB",
+   "content": "[Календарь релизов мая 2026 (May Album Release ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\n2026 (May Album Release Calendar) by Genius Russia … helios 812 — PARANOID — 13/13 waunty. Genius is the world's biggest collection of song lyrics and musical\n\n[helios 812 Lyrics, Songs, and Albums](https://genius.com/artists/Helios-812)\n(artist: helios 812)\",\"primary\\_artist\\_names\":\"helios 812\",\"pusher\\_channel\":\"album-1640081\",\"release\\_date\\_components\":{\"year\":2026,\"month\":5,\"day\":1},\"release\\_date\\_for\\_display\":\"May 1, 2026\",\"updated\\_at\":1777699313,\"url\":\" 812\",\"slug\":\"Helios-812\",\"url\":\" 812\",\"slug\":\"Helios-812\",\"url\":\" OF INFINITY by helios 812\",\"id\":1433132,\"name\":\"EMPIRE OF INFINITY\",\"name\\_with\\_artist\":\"EMPIRE OF INFINITY (artist: helios 812)\",\"primary\\_artist\\_names\":\"helios 812\",\"pusher\\_channel\":\"album-1433132\",\"release\\_date\\_components\":{\"year\":2025,\"month\":7,\"day\":4},\"release\\_date\\_for\\_display\":\"July 4, 2025\",\"updated\\_at\":1753369459,\"url\":\" 812\",\"slug\":\"Helios-812\",\"url\":\" 812\",\"slug\":\"Helios-812\",\"url\":\" 812's first album EMPIRE OF INFINITY released on July 4, [...] helios 812\n\nproblem forest\n\nhelios 812\n\nPAY PHONE\n\nHOOD GOTH & helios 812\n\n Show all songs by helios 812 \n\nPopular helios 812 albums\n\nHttps%3a%2f%2fimages.genius.com%2f420455b53e20d97a69c755edee2d1e04.300x300x1\n\n### PARANOID\n\n2026\n\nHttps%3a%2f%2fimages.genius.com%2f06f276429d9bd0b43fe7a539bfcd2a5d.300x300x1\n\n### EMPIRE OF INFINITY\n\n2025\n\nhelios 812 Q&A\n\nWhen did helios 812's first album release? What is the most popular album by helios 812? What is the most popular song by helios 812? When did helios 812 start making music?\n\n Home\n H\n helios 812\n\n ⇽ Back to List of Artists [...] \",\"has\\_voters\":true,\"id\":30419156,\"needs\\_exegesis\":false,\"pinned\":false,\"proposed\\_edit\\_count\":0,\"pyongs\\_count\":null,\"referent\\_id\":30419156,\"share\\_url\":\" Филипп Дмитриевич (родился 7 декабря в Риге, Латвия) — исполнитель из Санкт-Петербурга, является…” —@Genius\",\"url\":\" drug"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «PARANOID» исполнителя helios 812 в календаре Genius Russia указан на 01 мая 2026 года.\n\nFINAL: 01/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

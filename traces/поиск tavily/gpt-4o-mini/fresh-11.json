@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-11",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «MONTAGEM!!!» исполнителя Lover?",
+  "answer": "01/05",
+  "evidence": "01/05\nLover — MONTAGEM!!! — 2/2",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «MONTAGEM!!!» исполнителя Lover указан в календаре Genius Russia на дату 01 мая 2026 года. \n\nFINAL: 01/05",
+ "correct": true,
+ "cost": 0.00012750000000005812,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «MONTAGEM!!!» исполнителя Lover?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ooKNdZDUtbc9C2mmhEINq2A1",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"MONTAGEM!!! Lover release date Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ooKNdZDUtbc9C2mmhEINq2A1",
+   "content": "[When did Lover release MONTAGEM!!!?](https://genius.com/albums/Lover/Montagem/q/release-date)\nLover released MONTAGEM!!! on May 1, 2026. !!! Lover 1.1K Views View Album Sourced. Genius is the ultimate source of music knowledge, created\n\n[MONTAGEM GENIUS - Upcoming EP by M4GN](https://open.spotify.com/album/6InLgdc9gbLULUSihSsoHh)\nReleases on Sep 11, 2026 · 5 songs. MONTAGEM GENIUS - Upcoming EP by M4GN. AlbumReleases on September 10, 2026. РусскийRussian SlovenčinaSlovak\n\n[‎MONTAGEM!!! - Single - Album by LOVER](https://music.apple.com/us/album/montagem-single/1896414700)\nMONTAGEM!!! - Single. MONTAGEM!!! - Single. LOVER. Hip-Hop/Rap · 2026. Preview ... May 7, 2026 2 songs, 3 minutes ℗ 2026 Soldout Music. More By LOVER."
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «MONTAGEM!!!» исполнителя Lover указан в календаре Genius Russia на дату 01 мая 2026 года. \n\nFINAL: 01/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

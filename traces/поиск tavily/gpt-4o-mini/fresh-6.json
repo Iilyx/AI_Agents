@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-6",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «CallMeLater» исполнителя gRx?",
+  "answer": "01/05",
+  "evidence": "01/05\ngRx — CallMeLater — 7/7",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «CallMeLater» исполнителя gRx запланирован на 7 июля 2026 года. \n\nFINAL: 07/07",
+ "correct": false,
+ "cost": 0.00017730000000004686,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «CallMeLater» исполнителя gRx?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_otAtIoYTVcAUM7rWKLZsgxrj",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"CallMeLater gRx релиз дата Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_otAtIoYTVcAUM7rWKLZsgxrj",
+   "content": "[Календарь релизов мая 2026 (May Album Release ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\nCover art for Календарь релизов мая 2026 (May Album Release Calendar) by Genius Russia ... gRx — CallMeLater — 7/7 · h1deki — империя зла — 7/7 · helios 812\n\n[When will Genius Russia release Календарь релизов 2026 (Album Release Calendar)?](https://genius.com/albums/Genius-russia/2026-album-release-calendar/q/release-date)\n# When will Genius Russia release Календарь релизов 2026 (Album Release Calendar)?\n\nGenius Russia is expected to release Календарь релизов 2026 (Album Release Calendar) in 2026.\n\n## Related questions about Genius Russia\n\n### When did Genius Russia's first album release?\n\n### What is the most popular album by Genius Russia?\n\n### What is the most popular song by Genius Russia?\n\n### When did Genius Russia start making music?\n\n# Genius is the world’s biggest collection of song lyrics and musical knowledge\n\nQuantcast\n\n[Календарь релизов августа 2026 (August Album Release ...](https://genius.com/41275707)\n28/08  \nB Soul — FLEXOLOGY — 8/8  \ni61 — FOG — 9/9  \nLIL KRYSTALLL — EASTERN PROMISE — 7/7  \nplgthg — Извини — 13/13  \nROCKET — Love Me Again: Tsukuyomi Dream — 7/7  \nSlatt Savage — Хороший день — 16/16  \nTVETH & BATO — RAW — 12/12  \nWHITENER — money fetish — 8/8  \nКРЕСТ — 4 — 4/4  \nМаленький ярче — Hatiora: Plantwave​​ — 7/7\n\n## About\n\nHave the inside scoop on this song?\n\nSign up and drop some knowledge\n\n## Q&A\n\nFind answers to frequently asked questions about the song and explore its deeper meaning\n\nWhen did Genius Russia release “Календарь релизов августа 2026 (August Album Release Calendar)”?\n\nКалендарь релизов 2026 (Album Release Calendar) (2026)\n\nGenius Russia\n\n1. 1.\n\n   Календарь релизов января 2026 (January Album Release Calendar)\n2. 2. [...] Credits\n\nReleased in\n\nAugust 2026\n\nTags\n\nNon-MusicRelease CalendarРоссия (Russia)\n\n## Comments\n\nSign Up And Drop Knowledge 🤓\n\nGenius is the ultimate source of music knowledge, cre"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «CallMeLater» исполнителя gRx запланирован на 7 июля 2026 года. \n\nFINAL: 07/07",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

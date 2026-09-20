@@ -1,0 +1,7 @@
+requests
+pydantic
+pandas
+matplotlib
+bs4
+curl_cffi
+tavily-python
