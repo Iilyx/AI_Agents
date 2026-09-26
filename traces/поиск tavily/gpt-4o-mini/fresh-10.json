@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-10",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «ЯК MUSIC 2» исполнителя wendsuk?",
+  "answer": "01/05",
+  "evidence": "01/05\nwendsuk — ЯК MUSIC 2 — 15/15",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз альбома «ЯК MUSIC 2» исполнителя wendsuk запланирован на 15 мая 2026 года. \n\nFINAL: 15/05",
+ "correct": false,
+ "cost": 0.0001372500000000887,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «ЯК MUSIC 2» исполнителя wendsuk?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_RLU6unLXfg10SUSTW7VCDACz",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"ЯК MUSIC 2 wendsuk релиз дата календарь Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_RLU6unLXfg10SUSTW7VCDACz",
+   "content": "[Календарь релизов мая 2026 (May Album Release ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\nЯК MUSIC 2 — 15/15 · Lover — MONTAGEM!!! — 2/2 · Old honda — Ускоренные записи — 3/3 · Pokich — Песни Идиота — 2/2. 03/05. Anonymous Ember — XXX Santa\n\n[Календарь релизов апреля 2026 (April Album Release ...](https://genius.com/Genius-russia-2026-april-album-release-calendar-annotated)\nЯК MUSIC — 9/9. MC Кальмар, Фуголь, Крёстный — Вестибулярка — 0/8 03/04 5opka — CLAY — 5/5 · alreadytrash — 333 333 333 — 5/5\n\n[як music 2 - wendsuk](https://music.yandex.ru/album/41831667)\nЯК MUSIC 2 альбом wendsuk слушать онлайн бесплатно на Яндекс Музыке в хорошем качестве. © 2026 Яндекс Музыка"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз альбома «ЯК MUSIC 2» исполнителя wendsuk запланирован на 15 мая 2026 года. \n\nFINAL: 15/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

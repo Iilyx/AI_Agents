@@ -1,0 +1,74 @@
+{
+ "task": {
+  "id": "fresh-9",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «ancient» исполнителя waunty 812?",
+  "answer": "01/05",
+  "evidence": "01/05\nwaunty 812 — ancient — 3/3",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «ancient» исполнителя waunty 812 указан в календаре Genius Russia на 1 мая 2026 года. \n\nFINAL: 01/05",
+ "correct": true,
+ "cost": 0.0003138000000000307,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «ancient» исполнителя waunty 812?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_gEXUYbdexr0gMr3pjIb8C2O6",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"релиз ancient исполнителя waunty 812 дата календарь Genius Russia 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_gEXUYbdexr0gMr3pjIb8C2O6",
+   "content": "[waunty 812](https://music.yandex.com/artist/22201970)\nНовый релиз protocol Сингл protocol protocol waunty 812 9 июля 2026 г.\n\n[waunty 812: слушать онлайн через Музыку ВКонтакте](https://vk.ru/artist/waunty812)\nСлушайте последний релиз protocol исполнителя waunty 812, который выпущен в 2026 году. ancient ancient waunty 812 2026 manifestation\n\n[WAUNTY 812 — биография, жанры, события](https://rupor.events/artist/waunty-812)\nWAUNTY 812. Прошедшие события. Soundcloud Weekend. 2 апреля 2026, 16:00. Графит · Москва. Начало рекламного блока. Конец рекламного блока."
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_IpUcy1TNNF0L7gb3Xbe5hQxK",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"релиз ancient waunty 812 дата\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_IpUcy1TNNF0L7gb3Xbe5hQxK",
+   "content": "[ancient Lyrics and Tracklist - waunty 812](https://genius.com/albums/Waunty-812/Ancient)\nwaunty 812. Released May 1, 2026. Back. ancient Tracklist. 1. choice Lyrics. 314. Track Info. Produced by greyrock, akkiru1 & coralean.\n\n[waunty 812](https://music.apple.com/us/artist/waunty-812/1756515939)\nwaunty 812. Latest Release. MAY 1, 2026. ancient - Single.\n\n[waunty 812 Lyrics, Songs, and Albums](https://genius.com/artists/Waunty-812)\n(artist: waunty 812)\",\"primary\\_artist\\_names\":\"waunty 812\",\"pusher\\_channel\":\"album-1641955\",\"release\\_date\\_components\":{\"year\":2026,\"month\":5,\"day\":1},\"release\\_date\\_for\\_display\":\"May 1, 2026\",\"updated\\_at\":1777793662,\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" THE FATE by waunty 812\",\"id\":1446394,\"name\":\"PRICE THE FATE\",\"name\\_with\\_artist\":\"PRICE THE FATE (artist: waunty 812)\",\"primary\\_artist\\_names\":\"waunty 812\",\"pusher\\_channel\":\"album-1446394\",\"release\\_date\\_components\":{\"year\":2025,\"month\":7,\"day\":18},\"release\\_date\\_for\\_display\":\"July 18, 2025\",\"updated\\_at\":1761573599,\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" снов (Sweet Dreams) by Akitim! & waunty 812\",\"id\":1214895,\"name\":\"Сладких снов (Sweet [...] & waunty 812\",\"id\":1214895,\"name\":\"Сладких снов (Sweet Dreams)\",\"name\\_with\\_artist\":\"Сладких снов (Sweet Dreams) (artists: Akitim! & waunty 812)\",\"primary\\_artist\\_names\":\"Akitim! & waunty 812\",\"pusher\\_channel\":\"album-1214895\",\"release\\_date\\_components\":{\"year\":2024,\"month\":7,\"day\":26},\"release\\_date\\_for\\_display\":\"July 26, 2024\",\"updated\\_at\":1779200091,\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" by waunty 812\",\"id\":1695130,\"name\":\"W812\\\",\"name\\_with\\_artist\":\"W812\\ (artist: waunty 812)\",\"primary\\_artist\\_names\":\"waunty 812\",\"pusher\\_channel\":\"album-1695130\",\"release\\_date\\_components\":null,\"release\\_date\\_for\\_display\":null,\"updated\\_at\":1783659633,\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" 812\",\"slug\":\"Waunty-812\",\"url\":\" 812's first album Сладких снов (Sweet Dreams"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «ancient» исполнителя waunty 812 указан в календаре Genius Russia на 1 мая 2026 года. \n\nFINAL: 01/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

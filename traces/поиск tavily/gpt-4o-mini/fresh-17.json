@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «miscellaneous» исполнителя mapt0v?",
+  "answer": "08/05",
+  "evidence": "08/05\nmapt0v — miscellaneous — 11/11",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «miscellaneous» исполнителя mapt0v указан на дату 8 мая 2026 года. \n\nFINAL: 08/05",
+ "correct": true,
+ "cost": 0.00012060000000002624,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «miscellaneous» исполнителя mapt0v?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HYGNYw9W5ICz9RJiEOFwXzmh",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Genius Russia calendar 2026 mapt0v miscellaneous release date\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HYGNYw9W5ICz9RJiEOFwXzmh",
+   "content": "[Календарь релизов мая 2026 (May Album Release ...](https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated)\n... Calendar) by Genius Russia. Календарь релизов мая 2026 (May Album Release ... mapt0v — miscellaneous — 11/11 · Shiny Ruby & LXNER — Twilight Duo — 12/12\n\n[mapt0v - miscellaneous Lyrics and Tracklist](https://genius.com/albums/Mapt0v/Miscellaneous)\nmiscellaneous. mapt0v. Released May 8, 2026.\n\n[mapt0v - miscellaneous [Альбом, 2026]](https://www.youtube.com/watch?v=fmNSWQbXbec)\nrelease 08.05.26 00:00 - miscellaneous [Альбом, 2026] @SmokeSipper14 likes187 views4 months ago"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «miscellaneous» исполнителя mapt0v указан на дату 8 мая 2026 года. \n\nFINAL: 08/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

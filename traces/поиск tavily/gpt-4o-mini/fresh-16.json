@@ -1,0 +1,52 @@
+{
+ "task": {
+  "id": "fresh-16",
+  "source": "fresh",
+  "question": "На какую дату в календаре Genius Russia за 2026 год указан релиз «МОНОПОЛИЯ 2» исполнителя Hood Rich Luka?",
+  "answer": "08/05",
+  "evidence": "08/05\nHood Rich Luka — МОНОПОЛИЯ 2 — 9/9",
+  "page": "Календарь релизов мая 2026 (May Album Release Calendar)",
+  "url": "https://genius.com/Genius-russia-2026-may-album-release-calendar-annotated"
+ },
+ "answer": "Релиз «МОНОПОЛИЯ 2» исполнителя Hood Rich Luka запланирован на 08 мая 2026 года.\n\nFINAL: 08/05",
+ "correct": true,
+ "cost": 0.000211200000000078,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. Если нужно найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для вопросов с датой в FINAL верни в фомате день/месяц. Пример 1 сентября 2026 -> 01/09"
+  },
+  {
+   "role": "user",
+   "content": "На какую дату в календаре Genius Russia за 2026 год указан релиз «МОНОПОЛИЯ 2» исполнителя Hood Rich Luka?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MmdjziTeJmhQ64DEmG1iJ59O",
+     "function": {
+      "name": "tavily_search",
+      "arguments": "{\"query\":\"Гenius Russia 2026 МОНОПОЛИЯ 2 Hood Rich Luka релиз дата\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MmdjziTeJmhQ64DEmG1iJ59O",
+   "content": "[Hood Rich Luka Lyrics, Songs, and Albums | Genius](https://genius.com/artists/Hood-rich-luka)\nRich Luka\",\"role\\_for\\_display\":\"verified\\_artist\",\"url\":\" 2 (MONOPOLY) by Hood Rich Luka\",\"id\":1321237,\"name\":\"МОНОПОЛИЯ 2 (MONOPOLY)\",\"name\\_with\\_artist\":\"МОНОПОЛИЯ 2 (MONOPOLY) (artist: Hood Rich Luka)\",\"primary\\_artist\\_names\":\"Hood Rich Luka\",\"pusher\\_channel\":\"album-1321237\",\"release\\_date\\_components\":{\"year\":2026,\"month\":5,\"day\":8},\"release\\_date\\_for\\_display\":\"May 8, 2026\",\"updated\\_at\":1778266472,\"url\":\" Rich Luka\",\"slug\":\"Hood-rich-luka\",\"url\":\" Rich Luka\",\"slug\":\"Hood-rich-luka\",\"url\":\" Ain’t Dead by Hood Rich Luka\",\"id\":1073724,\"name\":\"Trap Ain’t Dead\",\"name\\_with\\_artist\":\"Trap Ain’t Dead (artist: Hood Rich Luka)\",\"primary\\_artist\\_names\":\"Hood Rich [...] Hood Rich Luka\n\n Show all songs by Hood Rich Luka \n\nPopular Hood Rich Luka albums\n\nHttps%3a%2f%2fimages.genius.com%2f7a7635d27b88a311ac59b693dd231104.300x300x1\n\n### МОНОПОЛИЯ 2 (MONOPOLY)\n\n2026\")\n\nHttps%3a%2f%2fimages.genius.com%2fbfc72f42a7a7d992d37be0d191eba728.300x300x1\n\n### Trap Ain’t Dead\n\n2024\n\nHttps%3a%2f%2fimages.genius.com%2f0f548ddc39b6cdf458389a4f0e85c949.300x300x1\n\n### МОНОПОЛИЯ (MONOPOLY)\n\n2022\")\n\nHttps%3a%2f%2fimages.genius.com%2f2e344f424ab4d78fb6fec8ac0250f503.300x300x1\n\n### Lost Files Vol.2 Mix\n\n2022\n\nHttps%3a%2f%2fimages.genius.com%2fc203d74980116709409736c768fff921.300x300x1\n\n### LOST FILES VOL.1 MIX\n\n2021\n\nDefault cover image\n\n### Шансон\\ (Mixtape)\")\n\nHood Rich Luka Q&A [...] Hood Rich Luka)\",\"primary\\_artist\\_names\":\"Hood Rich Luka\",\"pusher\\_channel\":\"album-1073724\",\"release\\_date\\_components\":{\"year\":2024,\"month\":2,\"day\":9},\"release\\_date\\_for\\_display\":\"February 9, 2024\",\"updated\\_at\":1750841325,\"url\":\" Rich Luka\",\"slug\":\"Hood-rich-luka\",\"url\":\" Rich Luka\",\"slug\":\"Hood-rich-luka\",\"url\":\" (MONOPOLY) by Hood Rich Luka\",\"id\":929391,\"name\":\"МОНОПОЛИЯ (MONOPOLY)\",\"name\\_with\\_artist\":\"МОНОПОЛИЯ (MONOPOLY) (artist: Hood Rich Luka)\",\"primary\\_artist\\_names\":\"Hood Rich Luka\",\"pusher\\_channel"
+  },
+  {
+   "role": "assistant",
+   "content": "Релиз «МОНОПОЛИЯ 2» исполнителя Hood Rich Luka запланирован на 08 мая 2026 года.\n\nFINAL: 08/05",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
