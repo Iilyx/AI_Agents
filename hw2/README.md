@@ -1,7 +1,7 @@
 Тема набора календарь выхода треков исполнителей. Источник genius.com.
 Собирал скраппингом web-страницы с помощью bs4.
 Резал по дате, обогощая чанк, так как если построчно, то теряется дата.
-![Recall](img/recаll.png)
+![Recall](img/recall.png)
 ![Hybrid](img/hybrid.png)
 ![Main](img/main.png)
 ![MainPlot](img/money_rag.png)
